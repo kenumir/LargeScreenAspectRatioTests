@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data android:name="android.max_aspect" android:value="1.86" />
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:resizeableActivity="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
